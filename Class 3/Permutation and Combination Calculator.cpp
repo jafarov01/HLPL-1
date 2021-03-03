@@ -26,7 +26,7 @@ int main()
 		system("cls");
 		cout << "P(a, b)" << endl << "a is the number of total options you have to choose from." << endl <<
 			"b is how many items you need to choose." << endl << endl;
-		cout << "a is an element of N ve b <= a" << endl << endl;
+		cout << "a is an element of N and b <= a" << endl << endl;
 		cout << "Enter a:"; cin >> a;
 		cout << "Enter b:"; cin >> b;
 		try {
@@ -48,7 +48,7 @@ int main()
 		system("cls");
 		cout << "C(a, b)" << endl << "a is the number of items you have to choose from." << endl <<
 			"b is the number of items you're going to select." << endl << endl;
-		cout << "a is an element of N ve b <= a" << endl << endl;
+		cout << "a is an element of N and b <= a" << endl << endl;
 		cout << "Enter a: "; cin >> a;
 		cout << "Enter b: "; cin >> b;
 		try {
@@ -71,7 +71,7 @@ int main()
 			"b is how many items you need to choose." << endl;
 		cout << "C(a, b)" << endl << "a is the number of items you have to choose from." << endl <<
 			"b is the number of items you're going to select." << endl << endl;
-		cout << "a is an element of N ve b <= a" << endl << endl;
+		cout << "a is an element of N and b <= a" << endl << endl;
 		cout << "Enter a: "; cin >> a;
 		cout << "Enter b: "; cin >> b;
 		cout << "\n\n\nResults: \n" << endl;
