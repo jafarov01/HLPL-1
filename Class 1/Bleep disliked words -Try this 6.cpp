@@ -16,7 +16,7 @@ int main()
 {
     bool check = false;
     vector <string> words;
-    vector <string> disliked = {"sikim", "amk", "fuck", "asshole"};
+    vector <string> disliked = {"peach", "banana", "go", "apple"};
     cout << "Enter words... \n";
     for (string word; cin >> word;) {
         check = false;
